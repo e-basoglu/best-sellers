@@ -1,0 +1,98 @@
+.App {
+    padding: 0px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px; 
+}
+
+.books {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; 
+    margin-top: 20px; 
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px; 
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff; 
+}
+
+.book img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    background-color: rgb(246, 242, 206);
+}
+
+.book h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.book p {
+    flex-grow: 1; 
+    text-align: center;
+}
+
+.book span {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.delete,
+.update {
+    border: none;
+    padding: 3px 6px;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 10px; 
+}
+
+.delete {
+    border: 1px solid red;
+    color: red;
+}
+
+.update {
+    border: 1px solid blue;
+    color: blue;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.formButton {
+    border: none;
+    padding: 10px;
+    background-color: thistle;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.addHome {
+    display: block;
+    margin: 20px auto;
+}
